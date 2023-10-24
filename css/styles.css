@@ -86,7 +86,6 @@ img {
 
 .navigation-item {
   padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list {
@@ -100,10 +99,6 @@ img {
   gap: 40px;
 }
 
-.adress-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* Nav*/
 .navigation-link {
   color: var(--title-text-color);
@@ -111,6 +106,8 @@ img {
   padding: 24px 0;
 
   position: relative;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-link:hover,
@@ -161,6 +158,8 @@ img {
 /* Adress */
 .adress-link {
   color: var(--primary-text-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-link:hover,
