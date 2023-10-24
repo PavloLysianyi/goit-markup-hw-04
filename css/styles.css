@@ -82,11 +82,11 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-item {
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list {
@@ -98,6 +98,10 @@ img {
 .adress-list {
   align-items: center;
   gap: 40px;
+}
+
+.adress-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Nav*/
@@ -155,11 +159,6 @@ img {
 }
 
 /* Adress */
-
-.adress {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .adress-link {
   color: var(--primary-text-color);
 }
@@ -587,8 +586,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box:hover .overlay,
-.box:focus .overlay {
+.portfolio-link:hover .overlay,
+.portfolio-link:focus .overlay {
   transform: translateY(0);
 }
 
